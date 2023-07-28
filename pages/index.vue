@@ -155,11 +155,7 @@
   }
 }
 
-body {
-background-color: black;
-font-family: 'VT323', monospace;
 
-}
 html {
   scroll-behavior: smooth;
 } 

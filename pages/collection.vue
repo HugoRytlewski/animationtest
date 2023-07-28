@@ -1,49 +1,94 @@
 
 <template>
-    <div class="text-center mt-10 text-white mr-6 ml-6 text-5xl">
-            <h1>New Collection </h1>
+    <ul class="fixed w-screen block mt-10 flex test justify-between  max-h-24  text-white z-40 text text-lg top-0 right-4  md:right-0 item-center drop-shadown-md p-7">
+    <li>
+      <NuxtLink to="/">
+
+        <button class=" bg-neutral-900 p-2 shadow-2xl   rounded-xl md:ml-4 ">
+          <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 "
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+          >
+          <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 19l-7-7 7-7"
+          />
+          </svg>
+          <h2 class="hidden sm:block teest text-md md:text-xl">
+            Retour a l'accueil
+          </h2>
+        </button>
+      </NuxtLink>
+    
+        </li>
+   
+  </ul>
+ <div class="flex flex-col justify-center mt-10 text-center items-center overflow-hidden text-6xl  ">
+          <div class="titre2 mr-6 ml-6   text-white text-4xl md:text-5xl">
+            <h1>Collection </h1>
             <h1>Metropolis Series </h1>
           </div>
-    <div class="mt-20 ml-6 mr-6 mb-6 md:ml-36 md:mr-36">
+        </div>
+    <div class="mt-20  ml-6 mr-6 mb-6 md:ml-96 md:mr-96">
         
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4   	  translate-y-full  	 image33 ">
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
+        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
     </div>
 </div>
 
     </div>
 </template>
+<style>
+.image33{
+margin-top: -1rem;
+    animation: slidein 1s forwards;
+  animation-delay: 200ms;
+}
+.titre2{
+  transform: translateY(100%);
+
+  animation: slidein2 1s forwards;
+  animation-delay: 300ms;
+
+
+}
+</style>
