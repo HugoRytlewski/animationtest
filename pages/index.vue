@@ -9,7 +9,7 @@
             <h1>Metropolis Series </h1>
           </div>
         </div>
-        <div class="hauteur  flex-col md:flex   p-12 justify-center gap-x-4  md:overflow-hidden	">
+        <div class="hauteur  flex flex-col md:flex-row	   p-12 justify-center gap-x-4  md:overflow-hidden	">
           <div class="hover:scale-95	 duration-500">
 
           <img src="../assets/1.jpeg" alt="" class="hover:shadow-blue-100/30 hover:shadow-2xl		 duration-500 translate-y-full object-cover  	image1	">
