@@ -38,7 +38,7 @@
 
     <div class=" mt-20 h-screen  ml-6 mr-6 mb-6 xl:ml-96 xl:mr-96">
 
-<div class="slider grid grid-cols-1 xl:grid-cols-3 gap-4 items-center justify-center  rounded-lg  ml-0 mr-0	xl:ml-0 xl:mr-0  xl:translate-y-full  	 image33 ">
+<div class="slider xl:grid  xl:grid-cols-3 gap-4 flex  justify-center  rounded-lg  ml-0 mr-0	xl:ml-0 xl:mr-0  xl:translate-y-full  	 image33 ">
         <img class="active h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
         <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
@@ -60,6 +60,7 @@
 </template>
 <style>
 .image33{
+  
 @media screen and (min-width: 1200px) {
 
     animation: slidein 1s forwards;
@@ -91,7 +92,7 @@
 
 }
 .slider img{
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1280px) {
         display: none;
         
         
