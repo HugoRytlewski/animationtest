@@ -2,7 +2,7 @@
   <div>
     
     <div class="h-screen md:overflow-hidden  ">
-      <div class="mt-10 text-white hauteur 		">
+      <div class="mt-10 text-white hauteur flex flex-col		">
         <div class="flex flex-col justify-center text-center items-center overflow-hidden text-6xl  ">
           <div class="titre mr-6 ml-6  text-5xl">
             <h1>New Collection </h1>
