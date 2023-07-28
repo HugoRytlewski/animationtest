@@ -51,9 +51,9 @@
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
 </div>
 <div class="cont-btn">
-    <button class="md:hidden btn-nav left text-white"> ← </button>
+    <button class="md:hidden p-6 btn-nav left text-white"> ← </button>
 
-    <button class="md:hidden btn-nav right text-white" > →</button>
+    <button class="md:hidden p-6 btn-nav right text-white" > →</button>
 </div>
 
     </div>
@@ -107,7 +107,7 @@ img.active{
 }
 @keyframes fade{
     from{
-        transform: translateX(-100px);
+        transform: translateX(-150px);
     }
     to{
         transform: translateX(0px);
