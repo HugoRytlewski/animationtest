@@ -36,7 +36,7 @@
           </div>
         </div>
 
-    <div class=" md:mt-20 h-screen flex flex-col items-center justify-center ml-6 mr-6 mb-6 xl:ml-96 xl:mr-96">
+    <div class=" md:mt-20 h-screen  ml-6 mr-6 mb-6 xl:ml-96 xl:mr-96">
 
 <div class="slider grid grid-cols-1 xl:grid-cols-3 gap-4  rounded-lg  ml-0 mr-0	xl:ml-0 xl:mr-0  xl:translate-y-full  	 image33 ">
         <img class="active h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
