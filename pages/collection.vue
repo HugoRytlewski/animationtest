@@ -52,7 +52,7 @@
 </div>
 <div class="cont-btn">
     <button class="md:hidden btn-nav left text-white"> ← </button>
-    
+
     <button class="md:hidden btn-nav right text-white" > →</button>
 </div>
 
@@ -67,6 +67,7 @@ margin-top: -1rem;
   animation-delay: 200ms;
 }
 }
+
 @keyframes slidein {
   from {
     opacity: 0;
