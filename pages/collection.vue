@@ -36,43 +36,23 @@
         </div>
     <div class="mt-20  ml-6 mr-6 mb-6 md:ml-96 md:mr-96">
         
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4   ml-10 mr-10	md:ml-0 md:mr-0  translate-y-full  	 image33 ">
-    <div>
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
-    </div>
-    <div>
+<div class="slider grid grid-cols-1 md:grid-cols-3 gap-4  rounded-lg  ml-0 mr-0	md:ml-0 md:mr-0  md:translate-y-full  	 image33 ">
+        <img class="active h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
         <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
-    </div>
-    <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
-    </div>
-    <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
-    </div>
-    <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
-    </div>
-    <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
-    </div>
-    <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="">
-    </div>
-    <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
-    </div>
-    <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
-    </div>
-    <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
-    </div>
-    <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
-    </div>
-    <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
-    </div>
+</div>
+<div class="cont-btn">
+    <button class="md:hidden btn-nav left text-white"> ← </button>
+    <button class="md:hidden btn-nav right text-white" > →</button>
 </div>
 
     </div>
@@ -80,8 +60,22 @@
 <style>
 .image33{
 margin-top: -1rem;
+@media screen and (min-width: 1200px) {
+
     animation: slidein 1s forwards;
   animation-delay: 200ms;
+}
+}
+@keyframes slidein {
+  from {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
 .titre2{
   transform: translateY(100%);
@@ -91,4 +85,77 @@ margin-top: -1rem;
 
 
 }
+.slider{
+    overflow: hidden;
+
+}
+.slider img{
+    @media screen and (max-width: 1200px) {
+        display: none;
+        
+        
+  }
+
+
+}
+img.active{
+    display: block;
+    animation: fade 0.5s ;
+
+}
+@keyframes fade{
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.cont-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
 </style>
+<script>
+export default {
+  mounted() {
+    const items = document.querySelectorAll('img');
+    const nbSlide = items.length;
+    const suivant = document.querySelector('.right');
+    const precedent = document.querySelector('.left');
+    let count = 0;
+
+    function slideSuivante(){
+        items[count].classList.remove('active');
+
+        if(count < nbSlide - 1){
+            count++;
+        } else {
+            count = 0;
+        }
+
+        items[count].classList.add('active');
+        console.log(count);
+    }
+    suivant.addEventListener('click', slideSuivante);
+
+    function slidePrecedente(){
+        items[count].classList.remove('active');
+
+        if(count > 0){
+            count--;
+        } else {
+            count = nbSlide - 1;
+        }
+
+        items[count].classList.add('active');
+        console.log(count);
+    }
+
+    precedent.addEventListener('click', slidePrecedente);
+  }
+}
+</script>
