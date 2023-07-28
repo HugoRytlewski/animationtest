@@ -2,14 +2,14 @@
   <div>
     
     <div class="h-screen md:overflow-hidden  ">
-      <div class="mt-10 text-white hauteur flex flex-col		">
-        <div class="flex flex-col justify-center text-center items-center overflow-hidden text-6xl  ">
-          <div class="titre mr-6 ml-6  text-5xl">
+      <div class="mt-10 text-white hauteur 		">
+        <div class="  justify-center text-center items-center overflow-hidden text-6xl  ">
+          <div class="titre text-5xl">
             <h1>New Collection </h1>
             <h1>Metropolis Series </h1>
           </div>
         </div>
-        <div class="hauteur  flex flex-col md:flex-row items-center	   p-12 justify-center gap-x-4  md:overflow-hidden	">
+        <div class=" flex flex-col md:flex-row p-12 justify-center items-center gap-4  md:overflow-hidden	">
           <div class="hover:scale-95	 duration-500">
 
           <img src="../assets/1.jpeg" alt="" class="hover:shadow-blue-100/30 hover:shadow-2xl		 duration-500 translate-y-full object-cover  	image1	">
@@ -49,9 +49,7 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-.hauteur{
-  height: 90vh;
-}
+
 
 .titre{
   transform: translateY(-100%);
@@ -77,6 +75,8 @@
     height: 20rem;
     width: 20rem;
   }
+
+  
   height:40rem ;
   width: 30rem;
   
