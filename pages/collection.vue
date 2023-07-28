@@ -4,7 +4,7 @@
     <li>
       <NuxtLink to="/">
 
-        <button class=" bg-neutral-900 p-2 shadow-2xl   rounded-xl md:ml-4 ">
+        <button class=" bg-neutral-900 md:bg-black p-2 shadow-2xl flex    rounded-xl md:ml-4 ">
           <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6 "
