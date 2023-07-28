@@ -1,10 +1,10 @@
 
 <template>
-    <ul class="fixed w-screen block mt-10 flex test justify-between  max-h-24  text-white z-40 text text-lg top-0 right-4  md:right-0 item-center drop-shadown-md p-7">
+    <ul class="fixed w-screen block mt-10 flex test justify-between  max-h-24  text-white z-40 text text-lg top-0 right-4  xl:right-0 item-center drop-shadown-xl p-7">
     <li>
       <NuxtLink to="/">
 
-        <button class=" bg-neutral-900 md:bg-black p-2 shadow-2xl flex    rounded-xl md:ml-4 ">
+        <button class=" bg-neutral-900 xl:bg-black p-2 shadow-2xl flex    rounded-xl xl:ml-4 ">
           <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6 "
@@ -19,7 +19,7 @@
               d="M15 19l-7-7 7-7"
           />
           </svg>
-          <h2 class="hidden sm:block teest text-md md:text-xl">
+          <h2 class="hidden sm:block teest text-xl xl:text-xl">
             Retour a l'accueil
           </h2>
         </button>
@@ -28,15 +28,17 @@
         </li>
    
   </ul>
+
  <div class="flex flex-col justify-center mt-10 text-center items-center overflow-hidden text-6xl  ">
-          <div class="titre2 mr-6 ml-6   text-white text-4xl md:text-5xl">
+          <div class="titre2 mr-6 ml-6   text-white text-4xl xl:text-5xl">
             <h1>Collection </h1>
             <h1>Metropolis Series </h1>
           </div>
         </div>
-    <div class="mt-20  ml-6 mr-6 mb-6 md:ml-96 md:mr-96">
-        
-<div class="slider grid grid-cols-1 md:grid-cols-3 gap-4  rounded-lg  ml-0 mr-0	md:ml-0 md:mr-0  md:translate-y-full  	 image33 ">
+
+    <div class=" mt-20 h-screen flex flex-col items-center justify-center ml-6 mr-6 mb-6 xl:ml-96 xl:mr-96">
+
+<div class="slider grid grid-cols-1 xl:grid-cols-3 gap-4  rounded-lg  ml-0 mr-0	xl:ml-0 xl:mr-0  xl:translate-y-full  	 image33 ">
         <img class="active h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
         <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
@@ -51,16 +53,13 @@
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
 </div>
 <div class="cont-btn">
-    <button class="md:hidden p-6 btn-nav left text-white"> ← </button>
-
-    <button class="md:hidden p-6 btn-nav right text-white" > →</button>
+    <button class="xl:hidden text-4xl btn-nav left text-white"> ← </button>
+    <button class="xl:hidden  text-4xl btn-nav right text-white" > →</button>
 </div>
-
-    </div>
+</div>
 </template>
 <style>
 .image33{
-margin-top: -1rem;
 @media screen and (min-width: 1200px) {
 
     animation: slidein 1s forwards;
@@ -107,7 +106,7 @@ img.active{
 }
 @keyframes fade{
     from{
-        transform: translateX(-150px);
+        transform: translateX(-350px);
     }
     to{
         transform: translateX(0px);
