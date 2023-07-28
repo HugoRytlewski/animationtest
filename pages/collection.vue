@@ -52,7 +52,7 @@
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
 </div>
-<div class="cont-btn">
+<div class="cont-btn image33">
     <button class="xl:hidden text-4xl btn-nav left text-white"> ← </button>
     <button class="xl:hidden  text-4xl btn-nav right text-white" > →</button>
 </div>
