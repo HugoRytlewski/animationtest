@@ -36,7 +36,7 @@
         </div>
     <div class="mt-20  ml-6 mr-6 mb-6 md:ml-96 md:mr-96">
         
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4   	  translate-y-full  	 image33 ">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4   ml-10 mr-10	md:ml-0 md:mr-0  translate-y-full  	 image33 ">
     <div>
         <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
     </div>
