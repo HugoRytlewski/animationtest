@@ -38,9 +38,7 @@
         <button class=" text-white hover:text-neutral-500 ">
           <a class=" " href="/collection">Voir Collection</a>
         </button>
-      </div>
-    </div>
-    <footer class="bg-neutral-900 rounded-lg m-4  ">
+        <footer class="bg-neutral-900 rounded-lg m-4  ">
         <div class="w-screen-xl items-center p-4 flex flex-col md:flex-row md:justify-between">
             <span class="text-md text-white sm:text-center ">© 2023 
                 <a class="">Projet Collection Hugo, Tous droits réservés</a>
@@ -61,6 +59,9 @@
             </ul>
         </div>
     </footer>
+      </div>
+    </div>
+   
   </div>
 </template>
 <script>
