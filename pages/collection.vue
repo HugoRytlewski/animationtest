@@ -32,33 +32,66 @@
  <div class="flex flex-col justify-center mt-10 text-center items-center overflow-hidden text-6xl  ">
           <div class="titre2 mr-6 ml-6   text-white text-4xl xl:text-5xl">
             <h1>Collection </h1>
-            <h1>Metropolis Series </h1>
+            <h1>Desert Series </h1>
           </div>
         </div>
 
     <div class=" mt-20 h-screen  ml-6 mr-6 mb-6 xl:ml-96 xl:mr-96">
 
 <div class="slider xl:grid  xl:grid-cols-3 gap-4 flex  justify-center  rounded-lg  ml-0 mr-0	xl:ml-0 xl:mr-0  xl:translate-y-full  	 image33 ">
-        <img class="active h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
-        <img class="h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
+        <img class="active h-auto max-w-full rounded-lg cursor-pointer hover:scale-105 duration-500 collection" src="../assets/1.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/2.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/3.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/4.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/5.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/6.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/7.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/8.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/9.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/10.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/11.png" alt="">
+        <img class="h-auto max-w-full rounded-lg  cursor-pointer hover:scale-105 duration-500 collection" src="../assets/12.png" alt="">
 </div>
 <div class="cont-btn image33">
     <button class="xl:hidden text-4xl btn-nav left text-white"> ← </button>
     <button class="xl:hidden  text-4xl btn-nav right text-white" > →</button>
 </div>
-</div>
+<footer class="bg-neutral-900 rounded-lg m-4  ">
+        <div class="w-screen-xl items-center p-4 flex flex-col md:flex-row md:justify-between">
+            <span class="text-md text-white sm:text-center ">© 2023 
+                <a class="">Projet Collection Hugo, Tous droits réservés</a>
+        
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-white mr-0 gap-4 md:mr-16 sm:mt-0">
+                <li>
+                    <a href="https://www.linkedin.com/in/hugo-rytlewski-b06841281/">
+                    <img  class="w-6" src="~/assets/linkdinwhite.png" alt="">  
+                    </a>  
+                </li>
+                <li>
+                    <a href="https://github.com/HugoRytlewski">
+                      <img  class="w-6" src="~/assets/githubwhite.png" alt="">    
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </footer>
+    <br>
+  </div>
+
+
+
 </template>
+
 <style>
+.collection{
+  height: 17rem;
+  width: 23rem;
+  object-fit: cover;
+  object-position: center ;
+    
+}
 .image33{
   
 @media screen and (min-width: 1200px) {
