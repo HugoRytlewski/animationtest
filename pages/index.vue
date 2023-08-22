@@ -25,7 +25,30 @@
           <img src="../assets/03.png" alt="" class="	 duration-500 hover:shadow-blue-100/30 hover:shadow-2xl	  translate-y-full object-cover 	image3	">
           </div>
           <div class="md:hidden h-20 bg-black">
-
+            <footer class="bg-neutral-900 rounded-lg m-4 md:hidden ">
+        <div class="w-screen-xl items-center p-4 flex flex-col md:flex-row md:justify-between">
+            <span class="text-md text-white text-center ">© 2023 
+                <a class="">Projet Collection Hugo, Tous droits réservés</a>
+        
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-white mr-0 gap-4 md:mr-16 sm:mt-0">
+                <li>
+                    <a href="https://www.linkedin.com/in/hugo-rytlewski-b06841281/">
+                    <img  class="w-6" src="~/assets/linkdinwhite.png" alt="">  
+                    </a>  
+                </li>
+                <li>
+                    <a href="https://github.com/HugoRytlewski">
+                      <img  class="w-6" src="~/assets/githubwhite.png" alt="">    
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </footer>
+    <br>
+<br>
     </div>
         </div>
       </div>
@@ -42,7 +65,27 @@
       </div>
       
     </div>
-   
+    <footer class="bg-neutral-900 hidden md:flex  md:flex-col rounded-lg m-4  ">
+        <div class="w-screen-xl items-center p-4 flex flex-col md:flex-row md:justify-between">
+            <span class="text-md text-white sm:text-center ">© 2023 
+                <a class="">Projet Collection Hugo, Tous droits réservés</a>
+        
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-white mr-0 gap-4 md:mr-16 sm:mt-0">
+                <li>
+                    <a href="https://www.linkedin.com/in/hugo-rytlewski-b06841281/">
+                    <img  class="w-6" src="~/assets/linkdinwhite.png" alt="">  
+                    </a>  
+                </li>
+                <li>
+                    <a href="https://github.com/HugoRytlewski">
+                      <img  class="w-6" src="~/assets/githubwhite.png" alt="">    
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </footer>
    
    
   </div>
