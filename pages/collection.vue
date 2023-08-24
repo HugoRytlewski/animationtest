@@ -1,5 +1,7 @@
 
 <template>
+    <title>Projet Collection</title>
+
     <ul class="fixed w-screen block mt-10 flex test justify-between  max-h-24  text-white z-40 text text-lg top-0 right-4  xl:right-0 item-center drop-shadown-xl p-7">
     <li>
       <NuxtLink to="/">

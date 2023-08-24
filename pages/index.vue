@@ -1,4 +1,6 @@
 <template>
+    <title>Projet Collection</title>
+
   <div>
     
     <div class="h-screen md:overflow-hidden  ">
