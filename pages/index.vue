@@ -111,7 +111,7 @@
 .bouton{
   opacity:  0;
   transform: translateY(100%);
-  animation: slidein3 2s infinite 2000ms;
+  animation: slidein3 2s forwards 2000ms, floating 3s infinite 400ms;
 
 }
 
