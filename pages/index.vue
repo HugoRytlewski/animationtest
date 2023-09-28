@@ -57,7 +57,7 @@
       
     </div>
     
-    <div class="  bottom-6 left-1/2 transform   -translate-x-2/4">
+    <div class=" fixed bottom-6 left-1/2 transform   -translate-x-2/4">
       <div class="bg-black bouton rounded-xl outline-1 outline-white	outline-double		 shadow w-44 text-2xl text-center">
         
         <button class=" text-white hover:text-neutral-500 ">
@@ -111,7 +111,7 @@
 .bouton{
   opacity:  0;
   transform: translateY(100%);
-  animation: slidein3 2s forwards 2000ms, floating 3s infinite 400ms;
+  animation: slidein3 2s infinite 2000ms;
 
 }
 
